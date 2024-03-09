@@ -1,5 +1,5 @@
 # 公式の Maven イメージを使用
-image: maven:3.8.6-adopt-openJDK-17
+image: maven:3.9.0-amazoncorretto-17
 
 # キャッシュを設定
 cache:
