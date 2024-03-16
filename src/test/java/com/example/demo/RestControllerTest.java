@@ -36,7 +36,7 @@ public class RestControllerTest {
 
     @Test
     public void helloEndpointReturnsNotFoundForInvalidPath() throws Exception {
-        mockMvc.perform(MockMvcRequestBuilders.get("/invalid"))
+        mockMvc.perform(MockMvcRequestBuilders.get("/invalidURLisNotFound"))
                 .andExpect(status().isNotFound());
     }
 }
